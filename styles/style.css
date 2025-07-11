@@ -248,3 +248,17 @@ nav {
     min-height: 120px;
     resize: vertical;
 }
+.submit-btn {
+    background-color: #5d5fff;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #4a4dff;
+}

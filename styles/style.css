@@ -46,3 +46,13 @@ nav {
 .sign-up-btn:hover {
     background-color: #4a4dff;
 }
+.preview-image {
+    flex: 1;
+    text-align: center;
+}
+
+.preview-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+}

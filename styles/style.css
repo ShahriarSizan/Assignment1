@@ -18,6 +18,7 @@ header {
     top: 0;
     z-index: 100;
 }
+
 nav {
     max-width: 1200px;
     margin: 0 auto;
@@ -32,6 +33,7 @@ nav {
     font-weight: bold;
     color: #5d5fff;
 }
+
 .sign-up-btn {
     background-color: #5d5fff;
     color: white;
@@ -46,6 +48,81 @@ nav {
 .sign-up-btn:hover {
     background-color: #4a4dff;
 }
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #f8f9fa;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 40px;
+    line-height: 1.2;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-btn {
+    background-color: #5d5fff;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cta-btn:hover {
+    background-color: #4a4dff;
+}
+
+.preview-section {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    gap: 80px;
+}
+
+.preview-content {
+    flex: 1;
+}
+
+.preview-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.preview-content p {
+    font-size: 18px;
+    color: #6c757d;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.preview-btn {
+    background-color: #5d5fff;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.preview-btn:hover {
+    background-color: #4a4dff;
+}
+
 .preview-image {
     flex: 1;
     text-align: center;
@@ -56,6 +133,7 @@ nav {
     height: auto;
     border-radius: 16px;
 }
+
 .stats-section {
     background-color: #e9ecef;
     padding: 80px 20px;
@@ -73,6 +151,7 @@ nav {
     color: #2c3e50;
     margin-bottom: 60px;
 }
+
 .stats-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -82,6 +161,7 @@ nav {
 .stat-item {
     text-align: center;
 }
+
 .stat-number {
     font-size: 64px;
     font-weight: bold;
@@ -100,6 +180,7 @@ nav {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .testimonials h3 {
     font-size: 32px;
     font-weight: bold;
@@ -120,6 +201,7 @@ nav {
     border-radius: 16px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
+
 .stars {
     display: flex;
     gap: 4px;
@@ -137,6 +219,7 @@ nav {
     color: #2c3e50;
     margin-bottom: 12px;
 }
+
 .testimonial-card p {
     color: #6c757d;
     margin-bottom: 20px;
@@ -159,6 +242,7 @@ nav {
     font-weight: 500;
     color: #2c3e50;
 }
+
 .focus-section {
     text-align: center;
     padding: 80px 20px;
@@ -177,6 +261,7 @@ nav {
     color: #6c757d;
     margin-bottom: 40px;
 }
+
 .get-started-btn {
     background-color: #5d5fff;
     color: white;
@@ -192,6 +277,7 @@ nav {
 .get-started-btn:hover {
     background-color: #4a4dff;
 }
+
 .focus-image {
     max-width: 800px;
     margin: 0 auto;
@@ -202,6 +288,7 @@ nav {
     height: auto;
     border-radius: 16px;
 }
+
 .contact-section {
     background-color: white;
     padding: 80px 20px;
@@ -224,6 +311,7 @@ nav {
     flex-direction: column;
     gap: 24px;
 }
+
 .form-group {
     display: flex;
     flex-direction: column;
@@ -244,10 +332,12 @@ nav {
     font-size: 16px;
     background-color: #f8f9fa;
 }
+
 .form-group textarea {
     min-height: 120px;
     resize: vertical;
 }
+
 .submit-btn {
     background-color: #5d5fff;
     color: white;
@@ -262,6 +352,7 @@ nav {
 .submit-btn:hover {
     background-color: #4a4dff;
 }
+
 footer {
     background-color: white;
     padding: 60px 20px;
@@ -279,6 +370,7 @@ footer {
     color: #5d5fff;
     margin-bottom: 20px;
 }
+
 .footer-content p {
     font-size: 16px;
     color: #6c757d;
@@ -315,6 +407,7 @@ footer {
         flex-direction: column;
         gap: 40px;
     }
+    
     .stats-grid {
         grid-template-columns: 1fr;
         gap: 40px;

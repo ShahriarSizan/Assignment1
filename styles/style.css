@@ -202,3 +202,25 @@ nav {
     height: auto;
     border-radius: 16px;
 }
+.contact-section {
+    background-color: white;
+    padding: 80px 20px;
+}
+
+.contact-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-content h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}

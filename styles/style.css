@@ -305,3 +305,27 @@ footer {
 .footer-links a:hover {
     color: #5d5fff;
 }
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 32px;
+    }
+    
+    .preview-section {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .testimonial-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-links {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

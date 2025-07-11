@@ -82,3 +82,21 @@ nav {
 .stat-item {
     text-align: center;
 }
+.stat-number {
+    font-size: 64px;
+    font-weight: bold;
+    color: #5d5fff;
+    margin-bottom: 8px;
+}
+
+.stat-label {
+    font-size: 18px;
+    color: #6c757d;
+    font-weight: 500;
+}
+
+.testimonials {
+    padding: 80px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}

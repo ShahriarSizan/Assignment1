@@ -192,3 +192,13 @@ nav {
 .get-started-btn:hover {
     background-color: #4a4dff;
 }
+.focus-image {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.focus-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}

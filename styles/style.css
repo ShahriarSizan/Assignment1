@@ -32,3 +32,17 @@ nav {
     font-weight: bold;
     color: #5d5fff;
 }
+.sign-up-btn {
+    background-color: #5d5fff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sign-up-btn:hover {
+    background-color: #4a4dff;
+}

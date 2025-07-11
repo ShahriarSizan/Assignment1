@@ -177,3 +177,18 @@ nav {
     color: #6c757d;
     margin-bottom: 40px;
 }
+.get-started-btn {
+    background-color: #5d5fff;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+
+.get-started-btn:hover {
+    background-color: #4a4dff;
+}
